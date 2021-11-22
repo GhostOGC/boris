@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+}
+a {
+  color: inherit;
+}
+.header {
+  height: 68px;
+  display: flex;
+  align-items: center;
+}
+.header-logo-link {
+  height: 35px;
+  float: left;
+  margin-left: 25px;
+  margin-right: auto;
+}
+.main-nav-wrapper {
+  margin-right: 25px;
+  display: flex;
+  margin-top: 5px;
+  font-size: 35px;
+}
+.social-wrapper {
+  display: flex;
+  margin-right: 34px;
+  font-size: 30px;
+}
+.social-item {
+  margin-left: 24px;
+}
+.main-logo {
+  height: 35px;
+}
+.grey-hover:hover {
+  color: grey;
+}
