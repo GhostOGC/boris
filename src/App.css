@@ -4,6 +4,13 @@
 a {
   color: inherit;
 }
+p {
+  margin: 10px 0;
+  line-height: 1.857em;
+  font-size: 1vw;
+  font-weight: 500;
+  font-family: sans-serif;
+}
 .header {
   height: 68px;
   display: flex;
@@ -34,4 +41,12 @@ a {
 }
 .grey-hover:hover {
   color: grey;
+}
+.footer {
+  background-color: black;
+  padding: 65px;
+  bottom: 0;
+}
+.project-wrapper {
+  min-height: 65vh;
 }
