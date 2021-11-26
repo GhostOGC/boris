@@ -6,7 +6,7 @@ const Bio = () => {
       style={{
         backgroundColor: "#e2e2e2",
         display: "flex",
-        minHeight: "100vh",
+        minHeight: "87vh",
         width: "100vw",
         alignItems: "center",
       }}

@@ -4,9 +4,9 @@ import Shanghai from "../../Media/Shanghai4am/Shanghai.jpg";
 import Seewines from "../../Media/Seewines/Seewines.jpeg";
 
 const projects = [
-  { name: "ShowReel", img: Showreel },
-  { name: "Seewines", img: Seewines },
-  { name: "Shanghai", img: Shanghai },
+  { title: "ShowReel", img: Showreel, link: "https://vimeo.com/487601703" },
+  { title: "Seewines", img: Seewines, link: "https://vimeo.com/573358103" },
+  { title: "Shanghai", img: Shanghai, link: "https://vimeo.com/449976062" },
 ];
 
 const Projects = () => {

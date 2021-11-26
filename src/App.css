@@ -1,8 +1,13 @@
+@font-face {
+  font-family: SulphurPoint;
+  src: url("/src/Fonts/SulphurPoint-Regular.ttf");
+}
 * {
   margin: 0;
 }
 a {
   color: inherit;
+  font-family: SulphurPoint;
 }
 p {
   margin: 10px 0;
@@ -11,8 +16,11 @@ p {
   font-weight: 500;
   font-family: sans-serif;
 }
+h1 {
+  font-family: SulphurPoint;
+}
 .header {
-  height: 68px;
+  height: 7vh;
   display: flex;
   align-items: center;
 }
@@ -44,8 +52,13 @@ p {
 }
 .footer {
   background-color: black;
-  padding: 65px;
+  padding: 6vh;
   bottom: 0;
+}
+
+.footer a {
+  text-decoration: none;
+  color: white;
 }
 .project-wrapper {
   min-height: 65vh;
