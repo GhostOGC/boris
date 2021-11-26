@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/boris/static/css/main.557ad226.chunk.css",
+    "main.js": "/boris/static/js/main.c1a20534.chunk.js",
+    "main.js.map": "/boris/static/js/main.c1a20534.chunk.js.map",
+    "runtime-main.js": "/boris/static/js/runtime-main.0bc713b2.js",
+    "runtime-main.js.map": "/boris/static/js/runtime-main.0bc713b2.js.map",
+    "static/js/2.5c54ba63.chunk.js": "/boris/static/js/2.5c54ba63.chunk.js",
+    "static/js/2.5c54ba63.chunk.js.map": "/boris/static/js/2.5c54ba63.chunk.js.map",
+    "index.html": "/boris/index.html",
+    "static/css/main.557ad226.chunk.css.map": "/boris/static/css/main.557ad226.chunk.css.map",
+    "static/js/2.5c54ba63.chunk.js.LICENSE.txt": "/boris/static/js/2.5c54ba63.chunk.js.LICENSE.txt",
+    "static/media/Bio.0f7e8fea.jpeg": "/boris/static/media/Bio.0f7e8fea.jpeg",
+    "static/media/Logo.d6657e30.png": "/boris/static/media/Logo.d6657e30.png",
+    "static/media/Seewines.32eb34a7.jpeg": "/boris/static/media/Seewines.32eb34a7.jpeg",
+    "static/media/Shanghai.62a59ffc.jpg": "/boris/static/media/Shanghai.62a59ffc.jpg",
+    "static/media/Showreel.c28512e2.jpg": "/boris/static/media/Showreel.c28512e2.jpg",
+    "static/media/App.css": "/boris/static/media/SulphurPoint-Regular.059a9f12.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0bc713b2.js",
+    "static/js/2.5c54ba63.chunk.js",
+    "static/css/main.557ad226.chunk.css",
+    "static/js/main.c1a20534.chunk.js"
+  ]
+}
