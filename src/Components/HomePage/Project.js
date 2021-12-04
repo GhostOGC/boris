@@ -3,27 +3,20 @@ import { Parallax } from "react-parallax";
 const Project = ({ data }) => {
   return (
     <Parallax
-      strength="300"
+      strength="200"
       style={{ width: "100%" }}
       bgImageStyle={{ height: "auto", width: "100%" }}
       bgImage={data.img}
     >
-      <div
-        style={{
-          left: "50%",
-          top: "50%",
-          textAlign: "center",
-          display: "flex",
-          alignItems: "center",
-        }}
-        className="project-wrapper"
-      >
+      <div className="project-wrapper">
         <div
           style={{
-            fontSize: "7vw",
+            fontSize: "6vw",
             textDecoration: "none",
-            width: "100%",
             color: "white",
+            position: "absolute",
+            top: "43%",
+            left: "46.5%",
           }}
         >
           <a style={{ textShadow: "0px 2px 10px black" }} href={data.link}>
@@ -33,9 +26,9 @@ const Project = ({ data }) => {
       </div>
       <div
         style={{
-          position: "relative",
-          top: "-1vw",
-          left: "5vw",
+          position: "absolute",
+          top: "80%",
+          left: "5%",
         }}
       >
         <a
@@ -46,7 +39,7 @@ const Project = ({ data }) => {
             style={{
               color: "white",
               fontWeight: "500",
-              fontSize: "6vw",
+              fontSize: "5vw",
             }}
           >
             {data.title}

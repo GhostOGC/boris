@@ -61,5 +61,6 @@ h1 {
   color: white;
 }
 .project-wrapper {
-  min-height: 65vh;
+  min-height: 40vw;
+  position: relative;
 }
