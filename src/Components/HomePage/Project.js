@@ -4,7 +4,8 @@ const Project = ({ data }) => {
   return (
     <Parallax
       strength="300"
-      bgImageStyle={{ width: "100%" }}
+      style={{ width: "100%" }}
+      bgImageStyle={{ height: "auto", width: "100%" }}
       bgImage={data.img}
     >
       <div
