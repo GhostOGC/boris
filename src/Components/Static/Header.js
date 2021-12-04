@@ -1,7 +1,11 @@
+import { useState } from "react";
+import { Modal } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Logo from "../Logo/Logo";
 
 const Header = () => {
+  const [open, setOpen] = useState(false);
+
   return (
     <div className="header">
       <Link className="header-logo-link" to="/">
@@ -21,9 +25,12 @@ const Header = () => {
           </a>
         </div>
         <span>
-          <i onClick={() => console.log("clicked")} className="fas fa-bars" />
+          <i onClick={() => setOpen(true)} className="fas fa-bars" />
         </span>
       </div>
+      <Modal show={open} fullscreen={true} contentClassName="modal-container">
+        <div onClick={() => setOpen(false)}></div>
+      </Modal>
     </div>
   );
 };

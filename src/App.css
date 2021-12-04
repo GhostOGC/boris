@@ -64,3 +64,8 @@ h1 {
   min-height: 40vw;
   position: relative;
 }
+.modal-container {
+  background-color: rgba(0, 0, 0);
+  opacity: 0.5;
+  height: 100vh;
+}
