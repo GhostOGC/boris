@@ -29,7 +29,7 @@ const Header = () => {
         </span>
       </div>
       <Modal show={open} fullscreen={true} contentClassName="modal-container">
-        <div onClick={() => setOpen(false)}></div>
+        <div style={{ height: "100%" }} onClick={() => setOpen(false)}></div>
       </Modal>
     </div>
   );

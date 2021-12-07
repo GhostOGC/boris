@@ -3,9 +3,9 @@ import { Parallax } from "react-parallax";
 const Project = ({ data }) => {
   return (
     <Parallax
-      strength="200"
+      strength="100"
       style={{ width: "100%" }}
-      bgImageStyle={{ height: "auto", width: "100%" }}
+      bgImageStyle={{ paddingBottom: "56.25%", width: "100%" }}
       bgImage={data.img}
     >
       <div className="project-wrapper">

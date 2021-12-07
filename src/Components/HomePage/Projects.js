@@ -7,6 +7,12 @@ const projects = [
   { title: "ShowReel", img: Showreel, link: "https://vimeo.com/487601703" },
   { title: "Seewines", img: Seewines, link: "https://vimeo.com/573358103" },
   { title: "Shanghai", img: Shanghai, link: "https://vimeo.com/449976062" },
+  { title: "ShowReel", img: Showreel, link: "https://vimeo.com/487601703" },
+  { title: "Seewines", img: Seewines, link: "https://vimeo.com/573358103" },
+  { title: "Shanghai", img: Shanghai, link: "https://vimeo.com/449976062" },
+  { title: "ShowReel", img: Showreel, link: "https://vimeo.com/487601703" },
+  { title: "Seewines", img: Seewines, link: "https://vimeo.com/573358103" },
+  { title: "Shanghai", img: Shanghai, link: "https://vimeo.com/449976062" },
 ];
 
 const Projects = () => {
