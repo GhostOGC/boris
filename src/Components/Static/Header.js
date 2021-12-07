@@ -1,7 +1,7 @@
 import { useState } from "react";
-import { Modal } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import Logo from "../Logo/Logo";
+import NavigationModal from "../NavigationModal/NavigationModal";
 
 const Header = () => {
   const [open, setOpen] = useState(false);
@@ -25,12 +25,11 @@ const Header = () => {
           </a>
         </div>
         <span>
-          <i onClick={() => setOpen(true)} className="fas fa-bars" />
+          <i onClick={() => setOpen(true)} className="fas fa-bars nav-item" />
         </span>
       </div>
-      <Modal show={open} fullscreen={true} contentClassName="modal-container">
-        <div style={{ height: "100%" }} onClick={() => setOpen(false)}></div>
-      </Modal>
+
+      {open ? <NavigationModal setOpen={setOpen} /> : null}
     </div>
   );
 };

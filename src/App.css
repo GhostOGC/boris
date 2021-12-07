@@ -9,6 +9,7 @@
 a {
   color: inherit;
   font-family: SulphurPoint;
+  text-decoration: none;
 }
 p {
   margin: 10px 0;
@@ -45,6 +46,10 @@ h1 {
 .social-item {
   margin-left: 24px;
 }
+.nav-item:hover {
+  color: darkgray;
+  cursor: pointer;
+}
 .main-logo {
   height: 3vw;
 }
@@ -58,7 +63,6 @@ h1 {
 }
 
 .footer a {
-  text-decoration: none;
   color: white;
 }
 
@@ -67,7 +71,39 @@ h1 {
   position: relative;
 }
 .modal-container {
-  background-color: rgba(0, 0, 0);
-  opacity: 0.5;
-  height: 100vh;
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.95);
+  z-index: 100;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  font-size: 4vw;
+  color: white;
+}
+.modal-exit-icon {
+  position: relative;
+  padding-top: 2.5%;
+  padding-left: 5%;
+  left: 90%;
+}
+.modal-exit-icon:hover {
+  color: darkgray;
+  cursor: pointer;
+}
+.modal-navigation-container {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  font-size: 80px;
+  font-weight: 800;
+
+  margin-left: -150px;
+  margin-top: -150px;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 300px;
+  width: 300px;
 }
