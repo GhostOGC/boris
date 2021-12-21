@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/boris/static/css/main.cbb309c0.chunk.css",
-    "main.js": "/boris/static/js/main.c519d3ff.chunk.js",
-    "main.js.map": "/boris/static/js/main.c519d3ff.chunk.js.map",
+    "main.js": "/boris/static/js/main.d043ba1f.chunk.js",
+    "main.js.map": "/boris/static/js/main.d043ba1f.chunk.js.map",
     "runtime-main.js": "/boris/static/js/runtime-main.0bc713b2.js",
     "runtime-main.js.map": "/boris/static/js/runtime-main.0bc713b2.js.map",
     "static/js/2.3d917ed6.chunk.js": "/boris/static/js/2.3d917ed6.chunk.js",
@@ -21,6 +21,6 @@
     "static/js/runtime-main.0bc713b2.js",
     "static/js/2.3d917ed6.chunk.js",
     "static/css/main.cbb309c0.chunk.css",
-    "static/js/main.c519d3ff.chunk.js"
+    "static/js/main.d043ba1f.chunk.js"
   ]
 }
