@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/boris/static/css/main.cbb309c0.chunk.css",
-    "main.js": "/boris/static/js/main.d043ba1f.chunk.js",
-    "main.js.map": "/boris/static/js/main.d043ba1f.chunk.js.map",
+    "main.css": "/boris/static/css/main.358d8cea.chunk.css",
+    "main.js": "/boris/static/js/main.f5773236.chunk.js",
+    "main.js.map": "/boris/static/js/main.f5773236.chunk.js.map",
     "runtime-main.js": "/boris/static/js/runtime-main.0bc713b2.js",
     "runtime-main.js.map": "/boris/static/js/runtime-main.0bc713b2.js.map",
     "static/js/2.3d917ed6.chunk.js": "/boris/static/js/2.3d917ed6.chunk.js",
     "static/js/2.3d917ed6.chunk.js.map": "/boris/static/js/2.3d917ed6.chunk.js.map",
     "index.html": "/boris/index.html",
-    "static/css/main.cbb309c0.chunk.css.map": "/boris/static/css/main.cbb309c0.chunk.css.map",
+    "static/css/main.358d8cea.chunk.css.map": "/boris/static/css/main.358d8cea.chunk.css.map",
     "static/js/2.3d917ed6.chunk.js.LICENSE.txt": "/boris/static/js/2.3d917ed6.chunk.js.LICENSE.txt",
     "static/media/Bio.0f7e8fea.jpeg": "/boris/static/media/Bio.0f7e8fea.jpeg",
     "static/media/Main-Logo.d6657e30.png": "/boris/static/media/Main-Logo.d6657e30.png",
     "static/media/Seewines.32eb34a7.jpeg": "/boris/static/media/Seewines.32eb34a7.jpeg",
     "static/media/Shanghai.62a59ffc.jpg": "/boris/static/media/Shanghai.62a59ffc.jpg",
     "static/media/Showreel.c28512e2.jpg": "/boris/static/media/Showreel.c28512e2.jpg",
-    "static/media/App.css": "/boris/static/media/SulphurPoint-Regular.059a9f12.ttf"
+    "static/media/App.css": "/boris/static/media/Whitebutton.7d5be10b.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.0bc713b2.js",
     "static/js/2.3d917ed6.chunk.js",
-    "static/css/main.cbb309c0.chunk.css",
-    "static/js/main.d043ba1f.chunk.js"
+    "static/css/main.358d8cea.chunk.css",
+    "static/js/main.f5773236.chunk.js"
   ]
 }
