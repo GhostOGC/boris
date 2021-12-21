@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/boris/static/css/main.49bdc3d8.chunk.css",
-    "main.js": "/boris/static/js/main.9f5871a2.chunk.js",
-    "main.js.map": "/boris/static/js/main.9f5871a2.chunk.js.map",
+    "main.css": "/boris/static/css/main.cbb309c0.chunk.css",
+    "main.js": "/boris/static/js/main.c519d3ff.chunk.js",
+    "main.js.map": "/boris/static/js/main.c519d3ff.chunk.js.map",
     "runtime-main.js": "/boris/static/js/runtime-main.0bc713b2.js",
     "runtime-main.js.map": "/boris/static/js/runtime-main.0bc713b2.js.map",
-    "static/js/2.86c2dbda.chunk.js": "/boris/static/js/2.86c2dbda.chunk.js",
-    "static/js/2.86c2dbda.chunk.js.map": "/boris/static/js/2.86c2dbda.chunk.js.map",
+    "static/js/2.3d917ed6.chunk.js": "/boris/static/js/2.3d917ed6.chunk.js",
+    "static/js/2.3d917ed6.chunk.js.map": "/boris/static/js/2.3d917ed6.chunk.js.map",
     "index.html": "/boris/index.html",
-    "static/css/main.49bdc3d8.chunk.css.map": "/boris/static/css/main.49bdc3d8.chunk.css.map",
-    "static/js/2.86c2dbda.chunk.js.LICENSE.txt": "/boris/static/js/2.86c2dbda.chunk.js.LICENSE.txt",
+    "static/css/main.cbb309c0.chunk.css.map": "/boris/static/css/main.cbb309c0.chunk.css.map",
+    "static/js/2.3d917ed6.chunk.js.LICENSE.txt": "/boris/static/js/2.3d917ed6.chunk.js.LICENSE.txt",
     "static/media/Bio.0f7e8fea.jpeg": "/boris/static/media/Bio.0f7e8fea.jpeg",
     "static/media/Main-Logo.d6657e30.png": "/boris/static/media/Main-Logo.d6657e30.png",
     "static/media/Seewines.32eb34a7.jpeg": "/boris/static/media/Seewines.32eb34a7.jpeg",
@@ -19,8 +19,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.0bc713b2.js",
-    "static/js/2.86c2dbda.chunk.js",
-    "static/css/main.49bdc3d8.chunk.css",
-    "static/js/main.9f5871a2.chunk.js"
+    "static/js/2.3d917ed6.chunk.js",
+    "static/css/main.cbb309c0.chunk.css",
+    "static/js/main.c519d3ff.chunk.js"
   ]
 }
