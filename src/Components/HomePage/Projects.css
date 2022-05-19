@@ -1,0 +1,42 @@
+.parallax {
+  height: 40vw;
+  background-attachment: fixed;
+  background-position: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.first-project {
+  height: 50vw;
+}
+
+.play-btn {
+
+ height: 100px;
+ position: absolute;
+ left: 50%;
+ top: 40%;
+ transform: translate(-50%,-50%);
+ filter: invert(100%) drop-shadow(0px 0px 10px rgba(34, 34, 34, 0.5));
+
+}
+.play-btn:hover{
+  cursor: pointer;
+}
+
+.project-title{
+  position: absolute;
+  left: 5%;
+  bottom: 10%;
+  color: white;
+  text-shadow: 0px 0px 10px black;
+  font-size: 6rem ;
+}
+.project {
+  position: relative;
+}
+@media screen and (max-width: 1025px) {
+  .play-btn{height:10vw}
+  .project-title{font-size: 10vw;}
+}
