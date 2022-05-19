@@ -23,10 +23,11 @@ const Header = () => {
           >
             <i className="fab fa-instagram-square grey-hover" />
           </a>
+          <i
+            onClick={() => setOpen(true)}
+            className="fas fa-bars nav-item social-item"
+          />
         </div>
-        <span>
-          <i onClick={() => setOpen(true)} className="fas fa-bars nav-item" />
-        </span>
       </div>
 
       {open ? <NavigationModal setOpen={setOpen} /> : null}

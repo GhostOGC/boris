@@ -2,23 +2,8 @@ import Img from "../../Media/Bio/Bio.jpeg";
 
 const Bio = () => {
   return (
-    <div
-      style={{
-        backgroundColor: "#e2e2e2",
-        display: "flex",
-        minHeight: "87vh",
-        width: "100vw",
-        alignItems: "center",
-      }}
-    >
-      <div
-        style={{
-          minHeight: "40vh",
-          maxWidth: "50vw",
-          marginLeft: "10vw",
-          marginRight: "5vw",
-        }}
-      >
+    <div className="bio-wrapper">
+      <div className="bio-text">
         <p>
           Boris Kalaidjiev was born in Sofia and grew up in South Africa,
           Bulgaria, United States and France. He studied cinematography in
@@ -40,7 +25,7 @@ const Bio = () => {
         </p>
         <p>He is fluent in English, Bulgarian and French.</p>
       </div>
-      <div style={{ width: "30vw" }}>
+      <div className="bio-image">
         <img alt="alternative" width="100%" src={Img} />
       </div>
     </div>

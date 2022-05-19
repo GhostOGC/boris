@@ -15,7 +15,7 @@ class Logo extends Component {
     window.removeEventListener("resize", this.handleResize);
   }
   handleResize = () => {
-    if (window.innerWidth < 750) {
+    if (window.innerWidth < 1025) {
       this.setState({ logo: mobileLogo });
     } else {
       this.setState({ logo: mainLogo });

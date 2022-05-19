@@ -1,53 +1,39 @@
-import { Parallax } from "react-parallax";
+import { Component } from "react";
+import "./Projects.css";
+import Logo from "../../Media/Icons/play-button.png";
+import ReactPlayerModal from "../Player/PlayerModal";
+class Project extends Component {
+  state = {
+    open: false,
+  };
+  render = () => {
+    const { classNames, img, title, link } = this.props.data;
 
-const Project = ({ data }) => {
-  return (
-    <Parallax
-      strength="100"
-      style={{ width: "100%" }}
-      bgImageStyle={{ paddingBottom: "56.25%", width: "100%" }}
-      bgImage={data.img}
-    >
-      <div className="project-wrapper">
-        <div
-          style={{
-            fontSize: "6vw",
-            textDecoration: "none",
-            color: "white",
-            position: "absolute",
-            top: "43%",
-            left: "46.5%",
-          }}
-        >
-          <a style={{ textShadow: "0px 2px 10px black" }} href={data.link}>
-            <i className="fas fa-play"></i>
-          </a>
-        </div>
-      </div>
+    return (
       <div
-        style={{
-          position: "absolute",
-          top: "80%",
-          left: "5%",
-        }}
+        className={`parallax project ${classNames ? classNames : ""}`}
+        style={{ backgroundImage: `url(${img})` }}
       >
-        <a
-          style={{ textDecoration: "none", textShadow: "0px 2px 10px black" }}
-          href={data.link}
-        >
-          <h1
-            style={{
-              color: "white",
-              fontWeight: "500",
-              fontSize: "5vw",
-            }}
-          >
-            {data.title}
-          </h1>
-        </a>
+        <img
+          src={Logo}
+          className="play-btn"
+          alt="missing"
+          onClick={() => this.setState({ open: !this.state.open })}
+        />
+        <h1>
+          <a href={link} className="project-title">
+            {title}
+          </a>
+        </h1>
+        {this.state.open && (
+          <ReactPlayerModal
+            url={link}
+            onClose={() => this.setState({ open: false })}
+          />
+        )}
       </div>
-    </Parallax>
-  );
-};
+    );
+  };
+}
 
 export default Project;
