@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/boris/static/css/main.94d70928.chunk.css",
+    "main.css": "/boris/static/css/main.1fb309a1.chunk.css",
     "main.js": "/boris/static/js/main.e32c2985.chunk.js",
     "main.js.map": "/boris/static/js/main.e32c2985.chunk.js.map",
     "runtime-main.js": "/boris/static/js/runtime-main.0bc713b2.js",
@@ -8,7 +8,7 @@
     "static/js/2.4ac00a0b.chunk.js": "/boris/static/js/2.4ac00a0b.chunk.js",
     "static/js/2.4ac00a0b.chunk.js.map": "/boris/static/js/2.4ac00a0b.chunk.js.map",
     "index.html": "/boris/index.html",
-    "static/css/main.94d70928.chunk.css.map": "/boris/static/css/main.94d70928.chunk.css.map",
+    "static/css/main.1fb309a1.chunk.css.map": "/boris/static/css/main.1fb309a1.chunk.css.map",
     "static/js/2.4ac00a0b.chunk.js.LICENSE.txt": "/boris/static/js/2.4ac00a0b.chunk.js.LICENSE.txt",
     "static/media/Bio.0f7e8fea.jpeg": "/boris/static/media/Bio.0f7e8fea.jpeg",
     "static/media/Main-Logo.d6657e30.png": "/boris/static/media/Main-Logo.d6657e30.png",
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.0bc713b2.js",
     "static/js/2.4ac00a0b.chunk.js",
-    "static/css/main.94d70928.chunk.css",
+    "static/css/main.1fb309a1.chunk.css",
     "static/js/main.e32c2985.chunk.js"
   ]
 }
